@@ -1,0 +1,64 @@
+- html é linguagem de marcação
+
+- interpretada pelo navegador
+
+- significa Hyper Text Markup Language, pode-se linkar diversos arquivos
+
+- marcações são feitas através de tags: <tag>...</tag>
+
+- <nomedatag>...</nomedatag>
+
+-  estrutura padrão html:
+
+xxxxxxxxxxxxxxx
+
+-- <!DOCTYPE html> : não é uma tag, mas sim uma declaração, portanto só abre e não fecha. Serve para informar ao browser o tipo e a versão do html.
+
+--<html>...</html> : indica o início e término do documento html.
+
+---<head>...</head> : tag contida dentro de "<html>...</html>". Contém a "cabeça" do html, contendo todas as configurações do documento. A formatação, os links com o arquivo de estilo, etc.
+
+----<meta> : contida dentro de "<head>...</head>". Define os metadados dos dados.
+
+----<title>...</title> : tag contida dentro de "<head>...</head>". Configuração que indica o título do site. É o nome que fica na aba do browser (navegador).
+
+---<body>...</body> : tag contida dentro de "<html>...</html>". É o "corpo" do documento. Onde são colocados os conteúdos que serão apresentados ao usuário.
+
+----<h1>...</h1> ... <h6>...</h6> : estão contidos dentro de "<body>...</body>". São os "títulos" dentro "body". O h1 é o mais relevante
+e o h6 o menos relevante.
+
+----<p>...</p> : tag contida dentro de "<body>...</body>". É o parágrafo dentro do "body".
+
+----<ul>...</ul> : tag contida dentro de "<body>...</body>". Define uma lista não ordenada de elementos.
+
+-----<li>...</li> : tag contida dentro de "<ul>...</ul>". Define os elementos de uma lista.
+
+
+----<ol>...</ol> : contida dentro de "<body>...</body>". Define uma lista ordenada de elementos. 
+
+---- <strong>...</strong> : deixa o texto contido em negrito.
+
+---- <em>...<em> : deixa o texto contido em itálico
+
+
+xxxxxxxxxx
+
+- <div>...</div> : tag com função de divisão de conteúdo. É uma caixa na qual pode ser colocada qualquer parte do código.
+
+- <main>...</main> : todo o conteúdo contido nesta tag é definido como o conteúdo principal do artigo.
+
+- <section>...</section> : tag que divide o conteúdo em seções.
+
+- <article>...</article> : tag contida dentro de um "título" (h1, h2, etc). Define tudo o conteúdo de dentro como um "artigo".
+
+-- <header>...</header> : tag contida dentro de "<article>...</article>". 
+
+-- <footer>...</footer> : tag contida dentro de "<article>...</article>". Nele, podem ser colocados links de referência por exemplo.
+
+- <img> : define a inserção de imagens no código html. Esta tag possui dois atributos: src (especifica o caminho da imagem) e alt (define um texto alternativo para ser apresentado no lugar da imagem caso ela não apareça.)~
+
+- <a>...</a> : tag que define um hyperlink, o qual conecta uma página a outra. Um atributo desta tag é o "href", que define a URL do site para o qual o link leva.
+
+xxxxxxxxxx
+
+- <!-- ... --> : esta estrutura define os comentários que não são lidos pelo browser. Logo, sua finalidade é conter comentários sobre o código feitos de um progamador para outro.

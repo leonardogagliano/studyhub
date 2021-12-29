@@ -1,0 +1,18 @@
+https://www.youtube.com/watch?v=R7cY9xUKIE4&list=PL0Yihm-vUJs8WX8IU9uZqFrcC35_w1G7a&index=1 
+- (Kenzie Academy Brasil lessons playlist)
+
+
+https://www.bitdegree.org/learn/doctype-html#the-meaning-of-ltdoctype-htmlgt
+- about <meta> tag
+
+https://www.w3schools.com/tags/tag_article.asp
+- about <article> tag
+
+https://www.w3schools.com/html/html_attributes.asp
+- about Attributes
+
+https://www.w3schools.com/tags/tag_img.asp
+- about <img> tag
+
+https://www.w3schools.com/tags/tag_a.asp
+- about <a> tag
