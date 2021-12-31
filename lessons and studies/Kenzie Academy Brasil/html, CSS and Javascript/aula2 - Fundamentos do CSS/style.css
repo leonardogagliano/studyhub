@@ -1,0 +1,46 @@
+
+
+p {
+	background-color: pink;
+}
+
+
+.fundo {
+	background-color: yellow;
+}
+
+section {
+	background-color: black
+}
+
+h2 {
+	display: block;
+	background-color: blue;
+	width: 50%;
+}
+
+#texto {
+	color: brown;
+	font-family: cursive;
+	
+}
+
+.back {
+	color: gray;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+a[href] {
+	background-color: black;
+	color: blue;
+	
+}
+
+img {
+	height: 200px;
+	width: 500px;
+}
+
+
+

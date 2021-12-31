@@ -1,0 +1,122 @@
+-> CSS é uma linguagem de estilização que serve para mudar fonte, espaçamento, etc
+
+xxxxxxxxxxxxxxxx
+
+***********
+
+Num projeto, é necessário linkar o arquivo HTML com o arquivo CSS, adicionando a seguinte tag dentro de <head>...</head>  :
+
+	<head>
+		<link src="style.css">
+	</head>
+
+***********
+
+-> Estrutura básica do CSS:
+
+ seletor {
+	propriedade : valor;
+}
+
+xxxxxxxxxxxxxxx
+
+- propriedades: tamanho da fonte, cor da fonte, cor de fundo, margem, etc.
+
+- seletor : elemento que será modificado. ELe pode ser:
+	-> o nome da tag (afetará todas as tags do mesmo tipo). Ex: <section>, <p>
+	-> uma classe da tag. Ex: <section class="fundo">
+	-> o id, que é único.  Ex: <section id="cor-do-texto">
+	-> o atributo. 
+
+- propriedade : qual característica do seletor vai mudar
+
+- valor : qual o valor da propriedade
+
+xxxxxxxxxxxxxx
+
+///////////////////////////////////////////////
+
+1) Utilizando o nome da tag como seletor:
+
+No HTML:
+	<tag>
+	</tag>
+
+No CSS:
+	tag {
+		propertie: value;
+	}
+
+///////////////////////////////////////////////
+
+2) Utilizando a classe como seletor:
+
+No HTML: 
+
+	<tag class="class-name">	
+
+
+No CSS:
+
+	.class {
+		propertie: value
+	}
+
+A classe pode ser repetida mais de uma vez no código sem problemas.
+
+///////////////////////////////////////////////
+
+
+3) Usando o id como seletor:
+
+
+No HTML:
+
+	<tag id="id-name">
+
+No CSS:
+	#id-name {
+		propertie: value;
+	}
+
+///////////////////////////////////////////////
+
+4) Utilizando o atributo como seletor:
+
+No HTML:
+	<tag attribute>
+
+No CSS:
+	tag[attribute] {
+		propertie: value;
+	}
+
+
+-----------------
+
+- font-family: propriedade que define o tipo de fonte do texto. Pode-se usar uma fonte específica, como Arial, ou uma categoria, como Sans Serif. Quando apenas a categoria é usada, o navegar carrega a fonte padrão da que ele possui da categoria.
+
+- height: propriedade que define a altura de uma imagem.
+  	img {
+		height: 100px;
+	}
+
+- width: propriedade que define a largura de uma imagem.
+	img {
+		width: 200px;	
+	}
+
+----------
+
+--> Existem elementos de bloco, como <section>, e elementos de linha, como <em>
+	Para alterar o posicionamento do elemento, usa-se a propriedade display:
+	
+	tag {
+		display: block;
+		background-color: yellow;
+	}
+
+----------
+
+
+

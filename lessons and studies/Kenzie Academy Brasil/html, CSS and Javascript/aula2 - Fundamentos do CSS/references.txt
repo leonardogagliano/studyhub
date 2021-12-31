@@ -1,0 +1,25 @@
+https://www.youtube.com/watch?v=R7cY9xUKIE4&list=PL0Yihm-vUJs8WX8IU9uZqFrcC35_w1G7a&index=1 
+- (Kenzie Academy Brasil lessons playlist)
+
+xxxxxxxxxxxxxxxxxxxxxxxxx
+
+https://htmlcolorcodes.com/
+- (CSS colors codes)
+
+xxxxxxxxxxxxxxxxxxxxxxxxx
+
+https://www.w3schools.com/css/css_howto.asp
+- (on how to add CSS code in HTML)
+
+xxxxxxxxxxxxxxxxxxxxxxxxx
+
+https://www.w3schools.com/css/css_intro.asp
+- (CSS introduction)
+
+xxxxxxxxxxxxxxxxxxxxxxxxxx
+
+https://www.w3schools.com/cssref/
+- (CSS reference)
+
+https://www.w3schools.com/cssref/sel_class.asp
+- (about HTML classes)
