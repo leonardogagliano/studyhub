@@ -29,4 +29,5 @@ for(let i=0; i<=3;i+=1){
 	console.log(nomes[i]);
 }
 
-document
+document.getElementById("teste")
+
