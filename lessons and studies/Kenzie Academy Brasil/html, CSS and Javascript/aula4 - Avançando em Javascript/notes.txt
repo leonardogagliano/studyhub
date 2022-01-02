@@ -58,7 +58,9 @@ Loops ou estruturas de repetição:
 			document.getElementByTagName()
 			document.querySelector() //seleciona o primeiro elemento encontrado
 			document.querySelectorAll() //seleciona todos os elementos do tipo
-			document.createElement() //cria um elemento especificado
+			
+			document.createElement() //cria uma tag especificada
+			appendChild() //
 			
 		--> é possível armazenar o valor de retorno desses comando em uma variável:
 			exemplo:
