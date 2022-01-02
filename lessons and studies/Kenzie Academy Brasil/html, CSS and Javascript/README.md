@@ -1,4 +1,5 @@
 # Processo de estudo:
+
 	## Criei uma pasta para cada aula e nelas organizei os seguintes arquivos:
 		### "file.html" : arquivo .html que serviu como rascunho para exercitar os conceitos ensinados nas aulas. Ele ficava aberto e sendo modificado durante as aulas.
 		### "autoRefresh.js" : um arquivo .js que continha apenas a função de recarregar o arquivo html automaticamente no navegador.
