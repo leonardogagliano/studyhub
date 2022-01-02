@@ -45,3 +45,11 @@ Loops ou estruturas de repetição:
 		for(variavelControle; condiçãoParada; incremento){
 			
 		}
+		
+///////////////////////////
+
+-> DOM : permite manipular o HTML através de Javascript
+	document : comando que seleciona o documento HTML. Com isso, podemos manipular o arquivo HTML, alterando tags, valores, etc.
+		
+		comandos:
+			document.getElementById()

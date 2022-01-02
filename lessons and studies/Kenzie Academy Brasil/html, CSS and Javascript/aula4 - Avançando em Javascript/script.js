@@ -22,3 +22,11 @@ do{
 for(let contar = 0; contar <20; contar+=1){
 		console.log(contar);
 }
+
+//imprimir todos os elementos do array
+let nomes = ["name1", "name2", "name3"] 
+for(let i=0; i<=3;i+=1){
+	console.log(nomes[i]);
+}
+
+document
