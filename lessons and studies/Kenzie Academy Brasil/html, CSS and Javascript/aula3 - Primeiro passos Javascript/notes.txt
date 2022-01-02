@@ -1,0 +1,106 @@
+- Um algoritmo é uma sequência de passos a ser executada.
+
+- Javascript é uma linguagem de programação que é executada no lado do cliente, ou seja, diretamente no navegador. No início, havia somente o HTML, que é estático e não oferece muita interatividade para o utilizador. Por isso, o Javascript foi criado para trazer maior interatividade com o usuário.
+
+- É possível incluir um código de Javascript em um arquivo HTML de duas diferentes formas:
+	1) Escrevendo o código diretamente no arquivo HTML
+	2) Adicionando um link para um arquivo externo
+		Este deve ser aplicado da seguinte forma:
+			<script type="text/javascript" src="caminho-do-arquivo-.js">
+
+xxxxxxxxxxxxx
+
+- as variáveis armazenam um valor específico
+
+	- é possível declarar uma variável das seguintes formas:
+	
+	1)	var nome-da-variavel = valor; 
+
+	2)	let nome-da-variavel = valor;
+
+	3)	const nome-da-variavel = valor;
+
+- No exemplo 1, "var" define a variável como global. Sendo assim, todas as partes do código têm acesso à ela.
+
+- No exemplo 2, "let" respeita o escopo no qual ele foi criado.
+
+- No exemplo 3, "const" respeita o escopo no qual foi criado, porém não permite a reatribuição de valor. Logo, um valor de variável declarado através de const não pode ser mudado.
+
+////////////////////
+
+- {...} : tudo o que for colcado dentro das chaves é criado um escopo no qual as variáveis ficam registradas.
+
+- há diversos tipos de variáveis, como inteiro - que armazena números inteiros - , string - que armazena um texto -,  bool - que armazena o valor verdadeiro ou falso , etc.
+
+- existe o array, que armazena uma lista de itens de qualquer tipo de variável.
+	Sua sintaxe é a seguinte:
+		nome-do-array = [1, 3, 5, 7,...]
+		nome-do-array = [true, false, false, true]
+		nome-do-array = ["nome", "sobrenome"]
+
+- As quatro operações básicas podem ser usadas:
+	Exemplo1: console.log(1+2);
+	Exemplo2: console.log(2-5);
+	Exemplo3: console.log(8/2);
+	Exemplo4: console.log(6*10);
+	Exemplo5: let variavel = 5+2;
+
+- Há também o operador "resto", que retorna o resto da divisão de um número por outro:
+
+	console.log(10%3); //o retorno será 1
+
+
+/////////////////////////////
+
+Operadores relacionais:
+
+//retornam "true" or "false"
+
+1) == : compara se dois elementos são exatamente iguais 
+2) != : compara se dois elementos são diferentes
+3) > : compara se um elemento é maior que outro
+4) < : compara se um elemento é menor que outro
+5) >= : compara se um elemento é maior ou igual a outro
+6) <= : compara se um elemento é menor ou igual a outro
+7) === : compara o valor e também o tipo de variável //ex: 15=="15" retorna "true", mas 15==="15" retorna false
+
+--> +=, -=, *= e /= : faz o cálculo do valor atribuido à variável
+	ex:
+		numero = 20;
+		numero += 5; //é adicionado 5 à "número"
+		console.log(numero) //o retorno será 25
+
+--> ++ e -- : adiciona e subtrai 1 da variável
+
+//////////////
+
+Operadores lógicos:
+
+1) && : representa o opereador E
+2) || : representa OU
+3) ! : representa negação
+
+-> if-else: operadores que representam a relação de "se-senão".
+	Sua sintaxe é:
+		
+		if(condição){
+		
+		}
+		
+}
+
+Se a condição for verdadeira, o bloco é executado, senão, não é executado.
+Há também o operador "else".
+		
+		if(condição){
+		
+		}else{
+		
+		}
+
+Caso a condição não seja verdadeira, o bloco "if" não é executado, mas o bloco "else" sim.
+
+
+
+
+ 

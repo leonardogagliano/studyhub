@@ -1,0 +1,32 @@
+- Função é um bloco de códigos e executa uma série específica de comandos.
+
+- A sintaxe para declarar uma função é a seguinte:
+
+	function nome-da-funcao() {
+		linhas-de-codigo;
+	}
+	
+- Para chamar uma função:
+	nome-da-funcao();
+	
+- parâmetros : valores que são inseridos na função. São colocados dentro dos parênteses que vêm depois do nome da função.
+
+- return : o retorno de uma função.
+
+Obs: parâmetros e retorno são opcionais em uma função.
+
+--> Em progamação, quanto mais bem divididas as responsabilidades das funções, melhor.
+
+////////////////////////
+
+Loops ou estruturas de repetição:
+
+--> Estrutura que executa um determinado bloco de código enquanto a condição for verdadeira;
+
+1) WHILE
+	--> Enquanto a condição for verdadeira, o código é executado.
+	--> Sintaxe:
+			
+			while(condição){
+				linhas-de-codigo;
+			}
