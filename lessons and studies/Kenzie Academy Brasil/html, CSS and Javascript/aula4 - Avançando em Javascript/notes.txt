@@ -30,3 +30,18 @@ Loops ou estruturas de repetição:
 			while(condição){
 				linhas-de-codigo;
 			}
+			
+2) DO-WHILE
+	--> Funciona da mesma forma que o WHILE. Porém, executa o código ao menos uma vez antes de verfiicar a condição.
+	--> Sintaxe:
+			do{
+			
+			}while(condição)
+			
+3) FOR 
+	--> Executa um bloco de código até que a variável de controle atinja a condição desejada.
+		Apresenta maior segurança, pois limita as variáveis dentro de seu escopo.
+	--> sintaxe
+		for(variavelControle; condiçãoParada; incremento){
+			
+		}
