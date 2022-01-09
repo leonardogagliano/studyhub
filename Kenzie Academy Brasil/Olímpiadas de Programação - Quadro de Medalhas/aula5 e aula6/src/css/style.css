@@ -1,0 +1,29 @@
+/*estrutura para resetar as propriedades do navegador e evitar conflitos com propriedades usadas no código*/
+
+html, body, header, main, footer, article, div, span, p, a, figura, img, small{
+	margin : 0;
+	padding : 0;
+	box-sizing : border-box;
+	text-decoration: none;
+	font-family: sans-serif;
+	outline: none;
+}
+
+.container {
+	
+}
+
+.linha {
+	display: flex; 
+	flex-flow: row wrap;
+	align-items: center; 
+	
+}
+
+.coluna {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+

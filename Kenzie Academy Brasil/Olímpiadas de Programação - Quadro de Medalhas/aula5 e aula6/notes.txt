@@ -1,0 +1,1 @@
+<span> : uma tag usada para estilizar. É parecida com <div>, porém div é mais orientada para uma estilização de bloco e <span> é usada para estilização em linha
