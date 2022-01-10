@@ -1,0 +1,59 @@
+/*estrutura para resetar as propriedades do navegador e evitar conflitos com propriedades usadas no código*/
+
+html, body, header, main, footer, article, div, span, p, a, figura, img, small{
+	margin : 0;
+	padding : 0;
+	box-sizing : border-box;
+	text-decoration: none;
+	font-family: sans-2serif;
+	outline: none;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	color: white;
+}
+
+.linha {
+	display: flex; 
+	flex-flow: row wrap;
+	align-items: center; 
+	
+	
+}
+
+.coluna {
+	
+}
+
+/* HEADER */
+
+body{}
+
+body > header {
+	background-image: url("../img/bk-header.jpg");
+	background-repeat: no-repeat;
+	background-position: center -115px;
+	padding: 10px 0;
+	}
+	
+	body > header: .container{}
+	body > header: .linha{}
+	body > header: .linha.coluna{}
+	body > header: .linha.coluna{}
+	body > header: .linha.coluna figure{}
+	body > header: .linha.coluna figure img{
+		width: 100px;
+		max-width: 150px;
+	}
+	
+body>main{
+	font-color: black;
+	background-color: red;
+}
+	
+	
+
+
