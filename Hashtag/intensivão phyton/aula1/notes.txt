@@ -1,0 +1,178 @@
+- Instalar o Jupiter do Anaconda para programar em Phyton
+
+- Quando abrir o Jupiter, vai ser aberta uma lista com todas as pastas do computador
+
+- É preciso navegar até a pasta onde estão os arquivos do projeto
+
+xxxxxx
+
+- Exemplo: você trabalha numa empresa e consegue puxar os relatórios do dia e você precisa enviar eles todos os dias para a diretoria. Com o phyton, podemos automatizar todo este processo.
+
+- quando for programar em phyton, assim como em qualquer linguagem de programação, as coisas são executadas de cima para baixo.
+
+- sempre que for resolver qualquer problema com programação, é preciso pensar em como resolver ele sem programação. Isto é chamado lógica de programação.
+
+- Comentários em Phyton são escritos com a hashtag no início.
+
+xxxxxxxxxx
+
+Automatização de qualquer tarefa repetitiva:
+
+Exemplo --> enviar os relatórios para a diretoria;
+Lógica de programação  -->
+
+#passo 1 : entrar no sistema 
+#passo 2 : navegar no sistema até a pasta exportar
+#passo 3 : fazer o download da base de vendas
+#passo 4 : importar a base de vendas para o phyton
+#passo 5 : calcular o faturamento e quantidade de produtos vendidos (os indicadores)
+#passo 6 : enviar email para a diretoria
+
+- python é uma das linguagens mais usadas no mercado de trabalho e pode ser aplicado em qualquer área
+
+- biblioteca: uma variedade de códigos usada para resolver algum problema
+
+- Pandas: importa base de dados para não precisa criar códigos do zero
+
+-  pyautogui e pyperclip : automatizam o mouse, a tela e teclado do computador. Sempre que precisar automatizar alguma tarefa, usar as duas bibliotecas.
+
+	import  pyautogui
+	import pyperclip
+
+- para instalar uma biblioteca no Jupiter (instalação é uma vez só, importação é sempre):
+
+	!pip install  pyautogui
+	!pip install pyperclip
+
+- hotkey: combinação de teclas no teclado
+- textos no phyton ficam devem estar entre aspas
+
+- é preciso ajustar o delay
+- sempre que for usar  pyautogui, é preciso definir a pausa entre comandos do  pyautogui:
+	 pyautogui.PAUSE = 1
+
+- pyperclip consegue trabalhar com interrogação e outros caracteres especiais
+
+- sempre que necessário, pesquisar comandos de uma biblioteca
+
+-  dependendo da velocidade da internet, pode haver um delay no sistema. Para mandar o código esperar esse carregamento, usamos: biblioteca time, que já é instalada no phyton
+
+- e se tiver login e senha? resposta: basta programar o preechimento do login e da senha e o click de acesso.
+
+- caso a resollução da tela for diferente, é preciso usar a tag do item da tela 
+
+- e para clicar com o botão direito? 
+
+- e se tivesse captcha? é possível colocar um time.sleep() para você preencher o captcha. 
+--> é possível criar um código para passar pelo captcha com python, porém é mais complexo
+
+xxxxxxxxxx
+
+#passo 1: entrar no sistema
+	
+	import  pyautogui
+	import pyperclip
+	import time
+
+
+	 pyautogui.press("win")
+	 pyautogui.write("chrome")
+	 pyautogui.press("enter")
+	
+	 pyautogui.hotkey("ctrl", "t") #abre uma nova guia
+pyperclip.copy("https://drive.google.com/drive/folders/149xknr9JvrlEnhNWO49zPcw0PW5icxga")
+	 pyautogui.press("ctrl", "v")
+	 pyautogui.press("enter")
+	
+	time.sleep(5)
+	
+	 pyautogui.position() #retorna a posição atual do cursor
+	 pyautogui.click(x=100, y=100, clicks=2) #tem que passar para o click o parâmetro: a posição desejada e a quantidade de clicks (valor padrão é 1)
+	
+	 pyautogui.click(x=150, y=150) #clicar no arquivo
+	 pyautogui.click(x=200, y=200) #clicar nos três pontos
+	 pyautogui.click(x=250, y=250) #clicar no download
+	
+	time.sleep(5)
+
+	 pyautogui.press(x=100, y=100, button="right")
+
+xxxxxxxxxxxxxx
+
+- macete: apelidar pandas como pd
+	import pandas as pd
+
+- é preciso especificar o caminho do arquivo e uma variável para armazenar o valor  da base de dados
+
+- sempre colocar antes do caminho de um arquivo para o código não ler nenhum caractere especial
+
+- e se o arquivo mudar? é possível tornar um texto dinâmico para ele 
+Importar base de dados:
+
+- como selecionar uma aba quando tem mais de uma aberta? usar o sheet e número da aba
+
+-
+
+#passo 4
+
+	import pandas as pd
+	
+	table = pd.read_excel(r"C:\Users\leowg\OneDrive\Área de Trabalho\intensivão phyton\Aula 1\Exportar\venda - Dez.xlsx", sheet="1")
+	
+	display(table)
+
+/////////////
+
+#passo 5
+
+faturamento = tabela["valor final"].sum()
+qtd_produtos = table["quantidade"].sum()
+
+display(qtd_produtos)
+
+///////////////
+
+-pensar da forma mais eficiente possível:
+	quando aperta em escrever, já é selecionado o campo de destino
+	depois de selecionar o email de destino na lista, apertamos tab 
+	apertamos tab para ir para o próximo campos de escrita
+
+- o texto do email não é de linha única. Para isso usamos três aspas simples ou duplas para escrever texto de várias linhas:
+"""Este é um texto 
+   com várias linhas"""
+
+- o email possui um atalho para mandar o email: ctrl + enter
+
+- não precisa decorar código de formatação. Basta pesquisá-los quando necessário
+
+#passo 6 (automatizar o envio do email)
+- abrir o email
+- clicar no botao "escrever"
+- preencher o destino
+- escrever o email
+- clicar em enviar
+
+
+ pyautogui.hotkey("ctrl", "t")
+pyperclip.copy("https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox")
+ pyautogui.hotkey("ctrl", "v")
+ pyautogui.press("enter")
+
+text = """texto com 
+	várias linhas"""
+
+pyperclip.copy(text)
+ pyautogui.hotkey("ctrl", "v")
+ pyautogui.hotkey("ctrl", "enter")
+
+
+
+	
+
+
+	
+
+
+	
+
+ 

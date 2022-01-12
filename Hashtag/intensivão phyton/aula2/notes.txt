@@ -1,0 +1,33 @@
+- problemas usando phyton vão chegar como situações-problema para resolver
+	ex: ocorreram muitos cancelamentos no serviço da empresa. Resolva isso.
+
+- relembrando: primeiro passo para resolver um problema é descrever o passo a passo da resolução dele
+
+#passo 1: importar base de dados
+#passo 2: visualizar a base de dados
+#passo 3: tratamento da base de dados para corrigir erros
+#passo 4: análise inicial
+#passo 5: análise detalhada da base de dados
+
+xxxxxx
+
+- sempre que for trabalhar com base de dados no phyton, usar a biblioteca pandas
+
+
+- "churn" significa cancelar a assinatura de um serviço. Por exemplo, cancelar a assinatura da netflix
+
+- # problema 1: Informação que não te ajuda, te atrapalha. Torna a base de dados mais pesada e mais difícil de ler.
+
+Por exemplo, uma coluna inútil.
+
+- # problema 2: Corrigir valores reconhecidos de forma errada
+
+- # problema 3: corrigir valores vazio - no phyton, NULL significa valor vazio. Eles atrapalham a análise. Para resolver, exluir eles ou tratar de outras formas 
+
+xxxxxxxxxxxx
+
+- As alterações feitas no phyton nao alteram o arquivo original. Usamos uma linha de código específica para fazer a alteração no arquivo.
+
+- Existem diversas formas de tratar valores vazios e cada um se aplica a uma situação
+
+- pandas.DataFrame.dropna -> é do panda.DataFrame
