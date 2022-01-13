@@ -31,3 +31,10 @@ xxxxxxxxxxxx
 - Existem diversas formas de tratar valores vazios e cada um se aplica a uma situação
 
 - pandas.DataFrame.dropna -> é do panda.DataFrame
+
+xxxxxxx
+
+- Objetivo: analisar a quantidade de cancelamentos de clientes
+	--> contar os valores das colunas
+
+
